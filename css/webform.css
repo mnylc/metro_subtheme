@@ -1,0 +1,195 @@
+/**
+ * @file
+ * Subtheme Wenform specific CSS.
+ */
+/* webforms */
+
+
+.block-help {
+    border-color: #fff;
+}
+
+.custom-form-input-heading,
+.field--name-moderation-state label,
+.node-type-list a {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-top: 8px;
+}
+
+.node-digital-object-collection-form .field--type-strawberryfield-field .fieldset-legend {
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.node-type-list dt {
+    margin-top: 1rem;
+}
+
+.webform-progress-tracker {
+    margin-left: 0.85rem;
+}
+
+[data-drupal-selector="edit-content"] .form-group {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+[data-drupal-selector="edit-footer"] {
+    padding-left:2em !important;
+    padding-right:2em !important;
+}
+
+[data-drupal-selector="edit-footer"] .form-group {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+[data-drupal-selector="edit-footer"] > .form-group {
+    padding-left:0 !important;
+    padding-right:0 !important;
+}
+
+
+.webform-ajax-form-wrapper .fieldset-wrapper .form-actions {
+    margin-left: 1rem;
+}
+
+/* Because of the order of loading Bootstrap and Jquery UI, there is a known issue with the titlebar-close button styles */
+/* Rather than reorder JS loading introducing possible bugs, manually load the jquery-ui "X" icon (icon sheet downloaded from Jquery UI) */
+/* This overrides the Jquery UI styles loaded by webform module */
+.ui-dialog-titlebar-close {
+    padding:0 !important;
+}
+
+.ui-dialog-titlebar-close:after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url(../img/ui-icons_888888_256x240.png);
+    /* position of the "X" in the icon sheet */
+    background-position: -95px -128px;
+    background-repeat: no-repeat;
+}
+
+/* bootstrap override for /core/modules/system/css/components/container-inline.module.css?qdeuar */
+
+.container-inline div, .container-inline label {
+    display: inline-flex !important;
+}
+
+/* plus and minus signs in the tables for composite multiple elements */
+.webform-multiple-table td input[type="image"] + input[type="image"] {
+    margin-left: 0px !important;
+}
+
+/* tables */
+.webform-multiple-table table {
+    border-radius: 6px;
+    border-collapse: separate;
+    border-spacing: 0;
+}
+/* This resets the internal borders first */
+.webform-multiple-table table tr th, .webform-multiple-table table tr td {
+    border-left:none ;
+    border-right:none ;
+}
+
+.webform-multiple-table table tr th {
+    text-align: left;
+    padding: 5px;
+}
+.webform-multiple-table table tr td {
+    text-align: left;
+    padding: 5px;
+}
+
+.webform-multiple-table table tr th:last-child {
+    border-right: 1px solid #bbb !important;
+}
+
+.webform-multiple-table table tr td:last-child {
+    border-right: 1px solid #bbb !important;
+}
+
+.webform-multiple-table table tr:last-child td {
+    border-bottom: 1px solid #bbb;
+    padding: 5px;
+}
+
+.webform-multiple-table table tr:first-child th {
+    border-top:solid 1px      #bbb;
+}
+.webform-multiple-table table tr th:first-child,
+.webform-multiple-table table tr td:first-child {
+    border-left: 1px solid #bbb !important;
+}
+
+/* top-left border-radius */
+.webform-multiple-table table tr:first-child th:first-child {
+    border-top-left-radius: 6px;
+}
+
+/* top-right border-radius */
+.webform-multiple-table table tr:first-child th:last-child {
+    border-top-right-radius: 6px;
+}
+
+/* bottom-left border-radius */
+.webform-multiple-table table tr:last-child td:first-child {
+    border-bottom-left-radius: 6px;
+}
+
+/* bottom-right border-radius */
+.webform-multiple-table table tr:last-child td:last-child {
+    border-bottom-right-radius: 6px;
+}
+
+/* ajax and throbbers */
+
+
+.ajax-progress {
+    display: inline-block;
+}
+
+
+/**
+ * Progress bar.
+ */
+
+.ajax-progress-bar {
+    width: 13em;
+    padding: 0 0.3125rem; /* 0 5px */
+}
+
+.webform-actions button {
+  margin-top:1em;
+}
+/**
+ * Throbber.
+ */
+
+.ajax-progress--throbber {
+    position: relative;
+    display: inline-flex;
+    align-content: center;
+    height: 1.125rem;
+    margin: -3px 0.75rem 0;
+    vertical-align: middle;
+    white-space: nowrap;
+    line-height: 1.125rem;
+}
+.ajax-progress .throbber, .ajax-progress-throbber .throbber {
+    display: inline-block !important;
+    width:20px;
+}
+
+.js .button:not(.js-hide) + .ajax-progress--throbber {
+    margin-left: 0; /* LTR */
+}
+
+[dir="rtl"].js .button:not(.js-hide) + .ajax-progress--throbber {
+    margin-right: 0;
+    margin-left: 0.75rem;
+}

@@ -1,0 +1,105 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the SASS Starterkit subtheme.
+ */
+use Drupal\Core\Template\Attribute;
+use Drupal\Core\Form\FormStateInterface;
+use Drupal\Component\Utility\Html;
+use Drupal\Core\Form\FormStateInterface;
+/**
+ * Implements hook_form_system_theme_settings_alter() for settings form.
+ *
+ */
+function metro_subtheme_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+  $form['components']['navbar']['bootstrap_barrio_navbar_top_background']['#options'] = array(
+      'bg-primary' => t('Primary'),
+      'bg-secondary' => t('Secondary'),
+      'bg-light' => t('Light'),
+      'bg-dark' => t('Dark'),
+      'bg-white' => t('White'),
+      'bg-transparent' => t('Transparent'),
+  );
+  $form['components']['navbar']['bootstrap_barrio_navbar_background']['#options'] = array(
+      'bg-primary' => t('Primary'),
+      'bg-secondary' => t('Secondary'),
+      'bg-light' => t('Light'),
+      'bg-dark' => t('Dark'),
+      'bg-white' => t('White'),
+      'bg-transparent' => t('Transparent'),
+  );
+  $form['fonts']['fonts']['bootstrap_barrio_google_fonts'] = [
+    '#type' => 'select',
+    '#title' => t('Google Fonts combination'),
+    '#default_value' => theme_get_setting('bootstrap_barrio_google_fonts'),
+    '#empty_option' => t('None'),
+    '#options' => [
+      'roboto' => t('Roboto Condensed, Roboto'),
+      'monserrat_lato' => t('Monserrat, Lato'),
+      'alegreya_roboto' => t('Alegreya, Roboto Condensed, Roboto'),
+      'dancing_garamond' => t('Dancing Script, EB Garamond'),
+      'amatic_josefin' => t('Amatic SC, Josefin Sans'),
+      'oswald_droid' => t('Oswald, Droid Serif'),
+      'playfair_alice' => t('Playfair Display, Alice'),
+      'dosis_opensans' => t('Dosis, Open Sans'),
+      'lato_hotel' => t('Lato, Grand Hotel'),
+      'medula_abel' => t('Medula One, Abel'),
+      'fjalla_cantarell' => t('Fjalla One, Cantarell'),
+      'coustard_leckerli' => t('Coustard Ultra, Leckerli One'),
+      'philosopher_muli' => t('Philosopher, Muli'),
+      'vollkorn_exo' => t('Vollkorn, Exo'),
+      'robot_cabin' => t('Roboto Condensed, Cabin'),
+    ],
+  ];
+}
+
+function metro_subtheme_form_views_exposed_form_alter(&$form, FormStateInterface $form_state, $form_id) {
+  if (isset($form['search_api_fulltext'])) {
+    $form['search_api_fulltext']['#attributes']['placeholder'] = t('Search');
+
+  }
+  if (isset($form['sort_by'])) {
+    $form['sort_by']['#attributes']['class'][] = Html::cleanCssIdentifier('d-none');
+    $form['sort_by']['#attributes']['class'][] = Html::cleanCssIdentifier('d-lg-block');
+  }
+  if (isset($form['sort_order'])) {
+    $form['sort_order']['#attributes']['class'][] = Html::cleanCssIdentifier('d-none');
+    $form['sort_order']['#attributes']['class'][] = Html::cleanCssIdentifier('d-lg-block');
+  }
+}
+
+
+/**
+ * Implements hook_preprocess_HOOK() for menu.html.twig.
+ */
+function metro_subtheme_preprocess_page(&$variables) {
+
+  // Define navigation toggle size
+  switch (theme_get_setting('bootstrap_barrio_navbar_toggle')) {
+    case 'navbar-toggleable-lg':
+      $expand_class = 'navbar-expand-lg';
+      break;
+    case 'navbar-toggleable-md':
+      $expand_class = 'navbar-expand-md';
+      break;
+    case 'navbar-toggleable-sm':
+      $expand_class = 'navbar-expand-sm';
+      break;
+    case 'navbar-toggleable-xs':
+      $expand_class = 'navbar-expand-xs';
+      break;
+    default:
+      $expand_class = 'navbar-expand-md';
+      break;
+  }
+
+ /* @var Attribute $variables['navbar_top_attributes'] */
+  $variables['navbar_top_attributes']->addClass($expand_class);
+
+  $fonts = theme_get_setting('bootstrap_barrio_google_fonts');
+  if ($fonts) {
+    $variables['#attached']['library'][] = 'metro_subtheme/' . $fonts;
+  }
+
+}

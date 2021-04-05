@@ -1,0 +1,36 @@
+/* ---------- Roboto, Roboto Condensed, Cabin ---------- */
+
+h1,
+h2,
+h1 a,
+h2 a {
+    font-family: 'Roboto Condensed', serif;
+}
+h1,
+h1 a {
+    font-family: 'Roboto Condensed', serif;
+    font-weight: 700;
+}
+h2,
+h2 a {
+    font-family: 'Roboto Condensed', Sans-Serif;
+    font-weight: 700;
+}
+h4,
+h5,
+h6 {
+    font-family: 'Roboto', sans-serif;
+}
+h3,
+h3 a {
+    font-family: 'Roboto', Sans-Serif;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+body,
+p,
+a,
+li {
+    font-family: 'Cabin', sans-serif;
+}

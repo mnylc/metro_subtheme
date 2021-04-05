@@ -1,0 +1,32 @@
+<div class="{{ container }}">
+    <div class="row">
+        {% if page.footer_first %}
+            <div class="col-md-auto">
+                    {{ page.footer_first }}
+            </div>
+        {% endif %}
+        {% if page.footer_second %}
+            <div class="d-flex footer-links">
+                {{ page.footer_second }}
+            </div>
+        {% endif %}
+        {% if page.footer_third %}
+            <div class="col">
+                {{ page.footer_third }}
+            </div>
+        {% endif %}
+        {% if page.footer_fourth %}
+            <div class="col">
+                {{ page.footer_fourth }}
+            </div>
+        {% endif %}
+    </div>
+
+    {% if page.footer_fifth %}
+        <div class="row">
+            <div class="site-footer__bottom">
+            {{ page.footer_fifth }}
+         </div>
+    </div>
+    {% endif %}
+</div>
