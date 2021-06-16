@@ -128,6 +128,10 @@ div.jumbotron div.card {
   border:none;
 }
 
+div.jumbotron div.card .card-body {
+  padding: 1rem;
+}
+
 div.jumbotron div.card .card-title {
   border-bottom: 2px solid black;
 }
