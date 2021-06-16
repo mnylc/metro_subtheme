@@ -23,9 +23,8 @@ section.region-top-header-form {
 
 #page div.entity-meta {
     background-color: rgba(233, 236, 239, 0.31);
-    border-radius: .25rem;
+    border-radius: 0.3em;
     padding: .75rem 1rem;
-    border-radius: .25rem;
 }
 
 /* Exposed Solr Search Form */
@@ -41,13 +40,13 @@ section.region-top-header-form {
   font-variant: normal;
   text-rendering: auto;
   webkit-font-smoothing: antialiased;
-  color: rgba(117,128,128,0.5);
+  color: rgba(0,0,0,1);
   font-family: Font Awesome\ 5 Free;
   font-weight: 900;
-  font-size: 1.4em;
+  font-size: 1.2em;
   content: "\f002";
   position:absolute;
-  padding:4px 6px 8px 6px;
+  padding:0.4em;
   pointer-events: none;
 }
 #views-exposed-form-solr-search-content-page-1:focus-within fieldset.form-type-search-api-autocomplete input, #views-exposed-form-solr-search-content-grid:focus-within fieldset.form-type-search-api-autocomplete input {
@@ -55,9 +54,9 @@ section.region-top-header-form {
   cursor: pointer;
   outline: none;
   padding: 6px 15px 6px 32px;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  border-radius: 0.25rem;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
   background-color: #fff;
 }
 
@@ -68,9 +67,9 @@ section.region-top-header-form {
   -moz-box-shadow: 0 0 5px rgba(109,207,246,.5);
   box-shadow: 0 0 5px rgba(109,207,246,.5);
   border: solid 1px #333333;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
-  border-radius: 0.25rem;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
+  border-radius: 0.3em;
   padding: 6px 10px 6px 32px;
   -webkit-transition: all 0.5s;
   -moz-transition: all 0.5s;
@@ -152,10 +151,10 @@ main.main-content div.content {
 
 /* iaBookreader */
 .BRtoolbar {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
-  -webkit-border-radius: 0.25rem;
-  -moz-border-radius: 0.25rem;
+  border-top-left-radius: 0.3em;
+  border-top-right-radius: 0.3em;
+  -webkit-border-radius: 0.3em;
+  -moz-border-radius: 0.3em;
 }
 
 /* drop down widgets */

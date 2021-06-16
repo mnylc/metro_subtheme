@@ -1,0 +1,22 @@
+/* ---------- Roboto, Roboto Condensed, Cabin ---------- */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h1 a,
+h2 a {
+    font-family: 'Roboto',sans-serif;
+    line-height: 1.2;
+    font-weight: 700;
+}
+body,
+p,
+a,
+i,
+li {
+    font-family: 'Lato', sans-serif;
+    line-height: 1.2;
+}

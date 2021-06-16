@@ -14,14 +14,8 @@ body.path-frontpage {
     margin-bottom: 0px;
 }
 
-
 .path-frontpage .feed-icons {
     display: none;
-}
-
-
-.content {
-    padding-bottom: 2rem;
 }
 
 div[data-drupal-selector="edit-field-layout"] {
@@ -36,17 +30,34 @@ pre code {
     width: 1010px;
     overflow: scroll;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    -moz-border-radius: 8px;
-    -webkit-border-radius: 8px;
-    border-radius: 8px; /* future proofing */
-    -khtml-border-radius: 8px; /* for old Konqueror browsers */
+    -moz-border-radius: 0.3em;
+    -webkit-border-radius: 0.3em;
+    border-radius: 0.3em; /* future proofing */
+    -khtml-border-radius: 0.3em; /* for old Konqueror browsers */
 }
 
 /* FA and icons */
 /* this is a little bit tricky. */
 
 #navbar-top {
-  align-items: flex-start;
+  align-items: center;
+  height: 6em;
+}
+
+section.region-top-header {
+  display: flex;
+  align-content: space-evenly;
+  align-items: center;
+  width: 100%;
+}
+section.region-top-header nav {
+  justify-content: space-evenly;
+  display: flex;
+  margin-left: auto;
+}
+
+section.region-top-header .form-group {
+  margin: 0;
 }
 
 .nav-item .fa-li {
@@ -65,16 +76,10 @@ pre code {
 
 /**menu and nav styles**/
 
-#navbar-main {
-    padding: 0px;
-}
-
 .navbar-dark .navbar-brand {
     color: #fff;
-    font-weight: 100;
     font-size: 1.5rem;
     padding-left: 1.25rem;
-    font-weight: 100;
 }
 
 .site-name-slogan .navbar-brand-slogan {
@@ -83,17 +88,17 @@ pre code {
 
 
 .nav.navbar-nav {
-    padding-top: .3125rem;
-    padding-bottom: .3125rem;
+    /* padding-top: .3125rem;
+    padding-bottom: .3125rem; */
     margin-right: 1rem;
 }
 
 .breadcrumb {
     background-color: #fff;
 }
-
+/* pushes search box to the right */
 #navbar-top div:last-child {
-    margin-left: auto;
+    margin-left: 0;
 }
 
 
@@ -105,6 +110,33 @@ pre code {
 
 #navbar-top .form-inline.navbar-form {
     margin-top:0.385rem;
+}
+
+
+/* front page customization */
+
+body.path-frontpage #page {
+  background-image: url(../img/front-page-metro.jpg);
+  background-size: cover;
+  background-position: 0px 200px;
+  background-repeat: no-repeat;
+}
+
+div.jumbotron div.card {
+  background-color: rgba(233, 236, 239, 0.7);
+  border:none;
+}
+
+#page  div.jumbotron {
+  background-color: transparent;
+}
+section.region {
+  justify-content: space-evenly;
+}
+
+#page .breadcrumb {
+ background-color: transparent;
+ justify-content: flex-end;
 }
 
 
@@ -250,7 +282,7 @@ pre code {
 /** END search box **/
 
 h1.title {
-
+    text-shadow: 0.1rem 0.1rem 5px rgba(0,0,0,0.2);
     margin-top: 1.25rem;
 }
 
@@ -552,13 +584,13 @@ div#sidebar_second.sidebar.col-md-3.order-last:empty {
 
 .carousel.slide {
     background-color: rgba(31,31,33,0.9);
-    border-radius: 6px;
+    border-radius: 0.3em;
     box-shadow: 0 10px 40px -10px rgba(0,64,128,.2);
     transition: box-shadow .3s;
 }
 
 .carousel-inner {
-    border-radius: 6px;
+    border-radius: 0.3em;
 }
 
 .carousel-inner .active {

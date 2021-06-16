@@ -36,9 +36,9 @@ fonts:
     theme:
       '//fonts.googleapis.com/css?family=Mukta:400,500,600,700': { type: external, minified: true }
 
-robot_cabin:
+robot_lato:
   version: VERSION
   css:
     component:
-      fonts/robot_cabin.css: {}
-      //fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700: {}
+      fonts/robot_lato.css: {}
+      '//fonts.googleapis.com/css2?2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@700;900': {}

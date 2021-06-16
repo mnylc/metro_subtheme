@@ -7,7 +7,6 @@
 use Drupal\Core\Template\Attribute;
 use Drupal\Core\Form\FormStateInterface;
 use Drupal\Component\Utility\Html;
-use Drupal\Core\Form\FormStateInterface;
 /**
  * Implements hook_form_system_theme_settings_alter() for settings form.
  *
@@ -49,7 +48,7 @@ function metro_subtheme_form_system_theme_settings_alter(&$form, FormStateInterf
       'coustard_leckerli' => t('Coustard Ultra, Leckerli One'),
       'philosopher_muli' => t('Philosopher, Muli'),
       'vollkorn_exo' => t('Vollkorn, Exo'),
-      'robot_cabin' => t('Roboto Condensed, Cabin'),
+      'robot_lato' => t('Roboto, Lato (Metro.org'),
     ],
   ];
 }

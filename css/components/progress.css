@@ -4,7 +4,7 @@
 
 .progress__track {
     border-color: #b3b3b3;
-    border-radius: 10em;
+    border-radius: 0.3em;
     background-color: #f2f1eb;
     background-image: -webkit-linear-gradient(#e7e7df, #f0f0f0);
     background-image: linear-gradient(#e7e7df, #f0f0f0);
@@ -24,7 +24,7 @@
     margin-left: -1px; /* LTR */
     padding: 0 1px;
     height: 16px;
-    border-radius: 10em;
+    border-radius: 0.3em;
     -webkit-animation: animate-stripes 3s linear infinite;
     -moz-animation: animate-stripes 3s linear infinite;
     -webkit-transition: width 0.5s ease-out;
