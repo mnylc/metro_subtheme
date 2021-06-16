@@ -122,9 +122,24 @@ body.path-frontpage #page {
   background-repeat: no-repeat;
 }
 
+/* Jumbotron and Cards */
 div.jumbotron div.card {
   background-color: rgba(233, 236, 239, 0.7);
   border:none;
+}
+
+div.jumbotron div.card .card-title {
+  border-bottom: 1px solid black;
+}
+
+div.jumbotron div.card .card-text ul {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+div.jumbotron div.card .card-text ul li {
+  line-height: 2em;
 }
 
 #page  div.jumbotron {
