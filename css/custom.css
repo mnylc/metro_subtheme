@@ -129,11 +129,11 @@ div.jumbotron div.card {
 }
 
 div.jumbotron div.card .card-body {
-  padding: 1rem;
+  padding: 0.75rem;
 }
 
 div.jumbotron div.card .card-title {
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 
 div.jumbotron div.card .card-text ul {
