@@ -134,6 +134,7 @@ div.jumbotron div.card .card-body {
 
 div.jumbotron div.card .card-title {
   border-bottom: 1px solid black;
+  min-width: 250px;
 }
 
 div.jumbotron div.card .card-text ul {
