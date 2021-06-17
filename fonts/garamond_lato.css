@@ -28,3 +28,8 @@ i
 strong, b {
   font-weight: 700;
 }
+
+.content .node a, p a {
+  font-size: 0.9em;
+}
+
