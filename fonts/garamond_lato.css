@@ -7,7 +7,6 @@ h4,
 h5,
 h6,
 a,
-li,
 button,
 input,
 h1 a,
@@ -18,7 +17,10 @@ h2 a {
 }
 body,
 p,
-i
+i,
+li,
+ul,
+em
 {
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.2;
@@ -30,6 +32,7 @@ strong, b {
 }
 
 .content .node a, p a {
-  font-size: 0.9em;
+  font-size: 0.8em;
+  -webkit-font-smoothing: antialiased;
 }
 
