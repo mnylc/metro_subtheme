@@ -6,6 +6,10 @@ h3,
 h4,
 h5,
 h6,
+a,
+li,
+button,
+input,
 h1 a,
 h2 a {
     font-family: 'Lato', sans-serif;
@@ -14,9 +18,8 @@ h2 a {
 }
 body,
 p,
-a,
-i,
-li {
+i
+{
     font-family: 'Cormorant Garamond', serif;
     line-height: 1.2;
 }
