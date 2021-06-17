@@ -8,6 +8,24 @@ global-styling:
       css/colors.css: {}
       css/custom.css: {}
       css/webform.css: {}
+bootstrap:
+  js:
+    /libraries/popper.js/dist/umd/popper.min.js: {}
+    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
+  css:
+    component:
+      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
+bootstrap_cdn:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js: {}
+  css:
+    component:
+      //stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css: {}
+boostrap_js:
+  js:
+    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
+    //stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js: {}
 color.preview:
   version: VERSION
   css:
