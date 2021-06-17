@@ -52,4 +52,4 @@ garamond_lato:
   css:
     component:
       fonts/garamond_lato.css: {}
-      '//fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Lato&display=swap': { type: external, minified: true }
+      '//fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Lato&display=swap': { type: external, minified: true }
