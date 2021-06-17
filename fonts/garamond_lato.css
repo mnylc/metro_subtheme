@@ -33,8 +33,9 @@ strong, b {
   -webkit-font-smoothing: antialiased;
 }
 
-.content .node a, p a {
+.content .node .field a, .field p a {
   font-size: 0.8em;
   -webkit-font-smoothing: antialiased;
 }
+
 
