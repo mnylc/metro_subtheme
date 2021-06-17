@@ -142,6 +142,7 @@ div.view-header > a.views-display-link {
 
 main.main-content div.content {
   padding: 2em;
+  margin-bottom: 1em;
 }
 
 /* Facet display */
