@@ -125,7 +125,7 @@ section.region-top-header .form-group {
   border-bottom: 1px solid rgba(165, 165, 165, 0.3);
 }
 
-.view div.view-content > div:last-child .d-flex {
+.view div.view-content > div.d-flex:last-child  {
   border-bottom: none !important;
 }
 
