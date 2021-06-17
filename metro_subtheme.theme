@@ -49,6 +49,7 @@ function metro_subtheme_form_system_theme_settings_alter(&$form, FormStateInterf
       'philosopher_muli' => t('Philosopher, Muli'),
       'vollkorn_exo' => t('Vollkorn, Exo'),
       'robot_lato' => t('Roboto, Lato (Metro.org'),
+      'garamond_lato' => t('Garamond, Lato (Metro.org'),
     ],
   ];
 }

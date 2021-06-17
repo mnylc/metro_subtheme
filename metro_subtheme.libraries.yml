@@ -8,24 +8,6 @@ global-styling:
       css/colors.css: {}
       css/custom.css: {}
       css/webform.css: {}
-bootstrap:
-  js:
-    /libraries/popper.js/dist/umd/popper.min.js: {}
-    /libraries/bootstrap/dist/js/bootstrap.min.js: {}
-  css:
-    component:
-      /libraries/bootstrap/dist/css/bootstrap.min.css: {}
-bootstrap_cdn:
-  js:
-    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
-    //stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js: {}
-  css:
-    component:
-      //stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css: {}
-boostrap_js:
-  js:
-    //cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js: {}
-    //stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js: {}
 color.preview:
   version: VERSION
   css:
@@ -45,4 +27,11 @@ robot_lato:
   css:
     component:
       fonts/robot_lato.css: {}
-      '//fonts.googleapis.com/css2?2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@700;900': {}
+      '//fonts.googleapis.com/css2?2?family=Lato:ital,wght@0,300;0,400;1,300;1,400&family=Roboto:wght@700;900': { type: external, minified: true }
+
+garamond_lato:
+  version: VERSION
+  css:
+    component:
+      fonts/garamond_lato.css: {}
+      '//fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Lato&display=swap': { type: external, minified: true }
