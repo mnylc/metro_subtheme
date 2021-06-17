@@ -115,6 +115,11 @@ section.region-top-header .form-group {
 
 /* front page customization */
 
+.block-block-content {
+  width: 100%;
+}
+
+
 body.path-frontpage #page {
   background-image: url(../img/front-page-metro.jpg);
   background-size: cover;
