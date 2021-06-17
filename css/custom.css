@@ -180,6 +180,10 @@ section.region {
  font-family: 'Lato', sans-serif;
 }
 
+#page .breadcrumb li.breadcrumb-item  {
+  font-family: 'Lato', sans-serif;
+}
+
 
 @media all and (max-width: 75em) {
     .navbar-expand-lg .navbar-collapse {
