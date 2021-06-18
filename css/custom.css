@@ -152,7 +152,6 @@ div.jumbotron div.card .card-body {
 }
 
 div.jumbotron div.card .card-title {
-  min-width: 250px;
   text-align:center;
 }
 
@@ -252,7 +251,27 @@ section.region {
         -ms-flex-align: start;
         align-items: flex-start;
     }
+    /* space blocks when stacked */
+    .row .col-sm-12 {
+      marging-bottom:2em;
+    }
+    /* move Navigation to the left */
+    section.region-top-header.row{
+      display: flex;
+      align-content: flex-start;
+      align-items: flex-start;
+      width: 100%;
+      margin-left:0;
+    }
 
+    section.region-top-header nav {
+      justify-content: left;
+      margin-left: unset;
+      align-content: flex-end;
+    }
+    .navbar-collapse.collapse.show section.row {
+      flex-direction: column-reverse;
+    }
     #views-exposed-form-solr-search-content-page-1:focus-within fieldset.form-type-search-api-autocomplete input, #views-exposed-form-solr-search-content-grid:focus-within fieldset.form-type-search-api-autocomplete input {
         width: 220px !important;
         flex: 1;
