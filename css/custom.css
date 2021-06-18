@@ -252,8 +252,8 @@ section.region {
         align-items: flex-start;
     }
     /* space blocks when stacked */
-    .row .col-sm-12 {
-      marging-bottom:2em;
+    .jumbotron .row .col-sm-12 {
+      margin-bottom:2em;
     }
     /* move Navigation to the left */
     section.region-top-header.row{
