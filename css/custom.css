@@ -144,7 +144,8 @@ body.path-frontpage #page {
 .metro-front ul li:before {
   content: "»";
   position: absolute;
-  left: 0;
+  left: 3ch;
+  color: white;
 }
 /* fixed color for Metro.org front page */
 .path-frontpage #page-wrapper {
