@@ -364,7 +364,7 @@ h1.title {
 }
 
 .background-front {
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
