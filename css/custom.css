@@ -146,7 +146,10 @@ body.path-frontpage #page {
   position: absolute;
   left: 0;
 }
-
+/* fixed color for Metro.org front page */
+.path-frontpage #page-wrapper {
+  background-color: #b5acac;
+}
 
 /* Jumbotron and Cards */
 div.card {
