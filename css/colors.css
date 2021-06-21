@@ -23,7 +23,34 @@ body {
 #page .navbar-dark {
 
 }
+/* named colors */
+.metro-color-text {
+  color: #3b3b3b;
+}
+.metro-color-link {
+  color: #4b82bf;
+}
+.metro-color-navlink {
+  color: #f2f2f2;
+}
 
+.metro-color-btn-hover {
+  color: #0256b1;
+}
+
+/* named background colors */
+.metro-bgcolor-text {
+  background-color: #3b3b3b;
+}
+.metro-bgcolor-link {
+  background-color: #4b82bf;
+}
+.metro-bgcolor-navlink {
+  background-color: #f2f2f2;
+}
+.metro-bgcolor-btn-hover {
+  background-color: #0256b1;
+}
 
 .tabs ul.primary li a.is-active {
     background-color: #ffffff;

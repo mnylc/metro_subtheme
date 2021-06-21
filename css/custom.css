@@ -141,6 +141,13 @@ body.path-frontpage #page {
   background-repeat: no-repeat;
 }
 
+.metro-front ul li:before {
+  content: "»";
+  position: absolute;
+  left: 0;
+}
+
+
 /* Jumbotron and Cards */
 div.jumbotron div.card {
   background-color: rgba(233, 236, 239, 0.8);
