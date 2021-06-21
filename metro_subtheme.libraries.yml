@@ -8,6 +8,7 @@ global-styling:
       css/colors.css: {}
       css/custom.css: {}
       css/webform.css: {}
+      //unpkg.com/pattern.css: { type: external, minified: true }
 bootstrap:
   js:
     /libraries/popper.js/dist/umd/popper.min.js: {}
