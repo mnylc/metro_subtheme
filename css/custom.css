@@ -149,7 +149,7 @@ body.path-frontpage #page {
 
 
 /* Jumbotron and Cards */
-div.jumbotron div.card {
+div.card {
   background-color: rgba(233, 236, 239, 0.8);
   border:none;
 }
