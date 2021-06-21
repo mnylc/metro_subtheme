@@ -18,6 +18,7 @@ body.path-frontpage {
     display: none;
 }
 
+
 div[data-drupal-selector="edit-field-layout"] {
   background: #ffffff;
 }
@@ -73,6 +74,9 @@ section.region-top-header .form-group {
     padding-left: 30px;
 }
 
+.page-link {
+  font-family: 'Lato', sans-serif;
+}
 
 /**menu and nav styles**/
 
