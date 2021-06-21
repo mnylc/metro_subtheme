@@ -136,7 +136,7 @@ section.region-top-header .form-group {
 
 body.path-frontpage #page {
   background-image: url(../img/front-page-metro.jpg);
-  background-size: cover;
+  background-size: contain;
   background-position: 0px 200px;
   background-repeat: no-repeat;
 }
