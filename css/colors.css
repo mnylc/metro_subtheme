@@ -145,10 +145,11 @@ div > div.carousel-item.active > div > h3 {
     margin-top: 0.5rem;
 }
 
-.nav-link:hover, .nav-link:focus {
+#header .nav-link:hover, #header .nav-link:focus, footer .nav-link:hover, footer .nav-link:focus{
     color: #ffffff;
+    text-decoration: none;
 }
-.nav-tabs .nav-link:hover, .nav-link:focus {
+.nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
     color: #4b82bf;
 }
 
