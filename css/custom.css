@@ -179,6 +179,7 @@ div.jumbotron div.card .card-text ul {
 div.jumbotron div.card .card-text ul li {
   line-height: 2em;
   text-align: center;
+  font-size:1.3rem;
 }
 
 #page  div.jumbotron {
@@ -367,6 +368,9 @@ h1.title {
 
 
 /**home page promo stuff**/
+#main {
+  font-size: 1.2rem;
+}
 
 #main-wrapper {
     padding-bottom: 400px;
