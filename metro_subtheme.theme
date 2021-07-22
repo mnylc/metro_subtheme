@@ -50,6 +50,7 @@ function metro_subtheme_form_system_theme_settings_alter(&$form, FormStateInterf
       'vollkorn_exo' => t('Vollkorn, Exo'),
       'robot_lato' => t('Roboto, Lato (Metro.org'),
       'garamond_lato' => t('Garamond, Lato (Metro.org'),
+      'montserrat_worksans' => t('Montserrat, Work Sans (Metro.org'),
     ],
   ];
 }
