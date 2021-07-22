@@ -54,11 +54,10 @@ garamond_lato:
     component:
       fonts/garamond_lato.css: {}
       '//fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;700&family=Lato&display=swap': { type: external, minified: true }
+
 montserrat_worksans:
   version: VERSION
   css:
     component:
       fonts/montserrat_worksans.css: {}
-      https://fonts:
-        googleapis:
       '//fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&family=Work+Sans:ital,wght@0,100;0,300;0,400;0,700;1,100;1,300;1,400;1,700&display=swap': { type: external, minified: true }
