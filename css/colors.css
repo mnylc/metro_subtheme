@@ -240,6 +240,7 @@ dt {
 .btn-primary {
     background-color: #007bff !important;
     border-color: #007bff !important;
+    color: #b3ffe0 !important;
 }
 
 .ui-slider-pips [class*=ui-slider-pip-selected] {
