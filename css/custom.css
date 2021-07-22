@@ -362,7 +362,7 @@ section.region {
 /** END search box **/
 
 h1.title {
-    text-shadow: 0.1rem 0.1rem 5px rgba(0,0,0,0.2);
+    /* text-shadow: 0.1rem 0.1rem 5px rgba(0,0,0,0.2); */
     margin-top: 1.25rem;
 }
 
