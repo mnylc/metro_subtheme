@@ -12,6 +12,9 @@ section.region-top-header-form {
     background-color: transparent;
     border: none;
 }
+.navbar-brand img {
+  margin-bottom: 1rem;
+}
 
 #page .form-text {
     margin-top:0px;
