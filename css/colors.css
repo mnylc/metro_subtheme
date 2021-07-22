@@ -69,8 +69,8 @@ table tr th {
     background-color: #000000;
     background-repeat: repeat;
     background-blend-mode: multiply;
-    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 80%);
-    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 80%);
+    -webkit-clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 95%);
 
 }
 #header {
@@ -256,6 +256,8 @@ dt {
     background: #292929;
     background-repeat: repeat;
     background-blend-mode: multiply;
+   -webkit-clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
+   clip-path: polygon(0 5%, 100% 0%, 100% 100%, 0% 100%);
 }
 
 /* Node edit buttons */
