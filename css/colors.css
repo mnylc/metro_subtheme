@@ -152,6 +152,11 @@ div > div.carousel-item.active > div > h3 {
     color: #ffffff;
     text-decoration: none;
 }
+.site-footer a.nav-link {
+  color: #b3ffe0;
+}
+
+
 .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
     color: #4b82bf;
 }
