@@ -469,6 +469,7 @@ h1.title {
 }
 
 
+
 .jumbotron .lead-buttons {
     width: 100%;
     display: flex;
@@ -485,6 +486,13 @@ h1.title {
     align-items: center;
     justify-content: space-evenly;
 }
+
+@media (min-width: 48em) {
+  .jumbotron {
+    padding: 1rem 2rem;
+  }
+}
+
 
 @media (max-width: 48em) {
     .jumbotron h1 {
