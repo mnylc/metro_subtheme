@@ -153,7 +153,8 @@ div > div.carousel-item.active > div > h3 {
 
 #header .nav-link:hover, #header .nav-link:focus, footer .nav-link:hover, footer .nav-link:focus{
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
 }
 .site-footer a.nav-link {
   color: #b3ffe0;
@@ -182,7 +183,8 @@ a:focus,
 .link:hover,
 .link:focus {
     color: #4b82bf;
-    decoration:none;
+    text-decoration-color: #007bff;
+    text-decoration-thickness: 3px;
 }
 
 a:active,
