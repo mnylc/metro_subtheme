@@ -81,9 +81,9 @@ section.region-top-header .form-group {
 /**menu and nav styles**/
 
 .navbar-dark .navbar-brand {
-    color: #fff;
-    font-size: 1.5rem;
-    padding-left: 1.25rem;
+  color: black;
+  font-size: 1.5rem;
+  padding-left: 1.25rem;
 }
 
 .site-name-slogan .navbar-brand-slogan {
