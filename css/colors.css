@@ -27,6 +27,9 @@ body {
 .metro-color-text {
   color: #3b3b3b;
 }
+.metro-color-text-overdark {
+  color: #f7f7f7;
+}
 .metro-color-link {
   color: #4b82bf;
 }
