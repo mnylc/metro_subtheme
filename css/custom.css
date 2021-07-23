@@ -139,7 +139,7 @@ section.region-top-header .form-group {
 
 
 body.path-frontpage #page {
-  background-image: url(../img/front-page-metro-color-corrected.jpg);
+  /* background-image: url(../img/front-page-metro-color-corrected.jpg); */
   background-size: contain;
   background-position: 0px 200px;
   background-repeat: no-repeat;
@@ -153,7 +153,7 @@ body.path-frontpage #page {
 }
 /* fixed color for Metro.org front page */
 .path-frontpage #page-wrapper {
-  background-color: #b5acac;
+  background-color: white;
 }
 
 /* Jumbotron and Cards */
