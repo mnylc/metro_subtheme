@@ -61,6 +61,23 @@ section.region-top-header .form-group {
   margin: 0;
 }
 
+
+section.region-footer-fourth {
+  justify-content: flex-start;
+}
+section.region-footer-first {
+  justify-content: flex-start;
+}
+section.region-footer-second {
+  justify-content: flex-start;
+}
+section.region-footer-third {
+  justify-content: flex-start;
+}
+section.region-footer-fourth{
+  justify-content: flex-start;
+}
+
 .nav-item .fa-li {
     left: 0em !important;
     top: 0.5em !important;;
@@ -184,9 +201,6 @@ div.jumbotron div.card .card-text ul li {
 
 #page  div.jumbotron {
   background-color: transparent;
-}
-section.region {
-  justify-content: space-evenly;
 }
 
 #page .breadcrumb {
