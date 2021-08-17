@@ -30,6 +30,18 @@ section.region-top-header-form {
     padding: .75rem 1rem;
 }
 
+
+/* Alternating Colors */
+div.view-content.row-bootstrap4 .flex-column > div{
+  background-color:#f2f1f6;
+}
+
+div.view-content.row-bootstrap4 .flex-column:nth-child(odd) > div  {
+    background-color:#f3f8f8;
+}
+
+
+
 /* Exposed Solr Search Form */
 
 #views-exposed-form-solr-search-content-page-1 label, #views-exposed-form-solr-search-content-grid label  {
@@ -139,12 +151,8 @@ div.view-header > a.views-display-link {
   margin-top: 2em;
 }
 
-#edit-actions {
-  margin-left: 2em;
-}
-
 main.main-content div.content {
-  padding: 2em;
+  padding-top: 1em;
   margin-bottom: 1em;
 }
 

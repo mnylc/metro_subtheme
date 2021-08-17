@@ -23,6 +23,10 @@ body {
 #page .navbar-dark {
 
 }
+#page .navbar-dark .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='black' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 /* named colors */
 .metro-color-text {
   color: #3b3b3b;
@@ -63,8 +67,12 @@ body {
     background-color: #ffffff;
     border-bottom-color: #ffffff;
 }
-table tr th {
-  background: #000000;
+
+
+/* Tables */
+#page table tr th {
+  background-color: #2b3951;
+  color: #b3ffe0;
   border-bottom-style: none;
 }
 
@@ -136,9 +144,8 @@ main.main-content div.content {
   text-decoration-thickness: 3px;
 }
 
-.webform-progress-tracker .progress-step.is-active .progress-marker,
-.webform-progress-tracker .progress-step.is-active:hover .progress-marker {
-  background-color: #4b82bf;
+.webform-progress-tracker .progress-step.is-active .progress-marker::before, .webform-progress-tracker .progress-step.is-active:hover .progress-marker::before {
+    background-color: #2196F3;
 }
 
 div > div.carousel-item.active > div > h3 {
@@ -214,11 +221,11 @@ dt {
 
 
 
-.sidebar .block {
+/* .sidebar .block {
     background-color: #f6f6f2;
     border-color: #f9f9f9;
     border-radius: 0.3em;
-}
+}*/
 
 #page details summary {
   color: #0071b3;
